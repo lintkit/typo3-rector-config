@@ -11,5 +11,10 @@
 	"require": {
 		"ssch/typo3-rector": "^2.0",
 		"typo3/cms-core": "^11.5 || ^12.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"LintKit\\Typo3RectorConfig\\": "Classes"
+		}
 	}
 }
