@@ -1,0 +1,15 @@
+{
+	"name": "lintkit/typo3-rector-config",
+	"type": "library",
+	"version": "0.1.0",
+	"authors": [
+		{
+			"name": "Mike Street",
+			"email": "mike@liquidlight.co.uk"
+		}
+	],
+	"require": {
+		"ssch/typo3-rector": "^2.0",
+		"typo3/cms-core": "^11.5 || ^12.4"
+	}
+}

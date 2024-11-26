@@ -1,0 +1,8 @@
+.cache/
+
+node_modules
+vendor
+vendor-bin
+
+.DS_Store
+._*
