@@ -14,6 +14,9 @@ Add the scripts:
 
 ```json
 "scripts": {
-
+    "rector:fix": "rector --config vendor/lintkit/typo3-v12.php",
+    "rector": "@rector:fix --dry-run"
 },
 ```
+
+**Note:** You can adjust your config to be different TYPO3 versions - check the root of the repo to see what is available
