@@ -1,7 +1,7 @@
 {
 	"name": "lintkit/typo3-rector-config",
 	"type": "library",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"authors": [
 		{
 			"name": "Mike Street",
