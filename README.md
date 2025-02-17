@@ -14,8 +14,8 @@ Add the scripts:
 
 ```json
 "scripts": {
-    "rector:fix": "rector --config vendor/lintkit/typo3-rector-config/typo3-v12.php",
-    "rector": "@rector:fix --dry-run"
+    "rector:dry-run": "@rector:fix --dry-run",
+    "rector:fix": "rector --config vendor/lintkit/typo3-rector-config/typo3-v12.php"
 },
 ```
 
