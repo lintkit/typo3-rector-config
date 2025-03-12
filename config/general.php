@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 use Rector\Config\RectorConfig;
+use Rector\Set\ValueObject\SetList;
 use Ssch\TYPO3Rector\Set\Typo3SetList;
 use Rector\Php55\Rector\String_\StringClassNameToClassConstantRector;
 use Rector\CodeQuality\Rector\Class_\InlineConstructorDefaultToPropertyRector;
@@ -18,6 +19,7 @@ return static function (RectorConfig $rectorConfig): void {
 	]);
 
 	$rectorConfig->sets([
+		SetList::DEAD_CODE,
 		Typo3SetList::CODE_QUALITY,
 		Typo3SetList::GENERAL,
 	]);
