@@ -10,6 +10,7 @@
 	],
 	"require": {
 		"ssch/typo3-rector": "^2.0 || ^3.0",
+		"webmozart/assert": "^1.11.0",
 		"typo3/cms-core": "^11.5 || ^12.4 || ^13.4"
 	},
 	"autoload": {
