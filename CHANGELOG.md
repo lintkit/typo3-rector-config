@@ -1,3 +1,11 @@
+# 1.1.1
+
+**21st January 2026**
+
+#### Dependencies
+
+- Fix `webmozart/assert` dependency to prevent conflict with rector
+
 # 1.1.0
 
 **30th July 2025**
