@@ -1,3 +1,11 @@
+# 1.2.0
+
+**12th February 2026**
+
+#### Feature
+
+- Disable dependency injection rule
+
 # 1.1.1
 
 **21st January 2026**
