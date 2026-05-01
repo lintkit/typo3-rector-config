@@ -25,4 +25,9 @@ final class LintKitSetList
 	 * @var string
 	 */
 	public const UP_TO_TYPO3_13 = __DIR__ . '/../../config/level/up-to-typo3-13.php';
+
+	/**
+	 * @var string
+	 */
+	public const UP_TO_TYPO3_13 = __DIR__ . '/../../config/level/up-to-typo3-14.php';
 }
