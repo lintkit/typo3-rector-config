@@ -1,3 +1,11 @@
+# 1.3.1
+
+**18th May 2026**
+
+#### Fix
+
+- Resolve incorrect `const` name
+
 # 1.3.0
 
 **15th May 2026**
