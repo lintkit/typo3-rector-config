@@ -1,3 +1,11 @@
+# 2.0.0
+
+**29th September 2026**
+
+#### Dependencies
+
+- Drop TYPO3 v11 & v12
+
 # 1.3.1
 
 **18th May 2026**
