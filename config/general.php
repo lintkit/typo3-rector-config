@@ -48,6 +48,11 @@ return static function (RectorConfig $rectorConfig): void {
 	// Remove Rules
 	$rectorConfig->skip([
 		// TYPO3 Rector
-		GeneralUtilityMakeInstanceToConstructorPropertyRector::class
+		GeneralUtilityMakeInstanceToConstructorPropertyRector::class,
+
+		// Ignore string-based PHP classes in settings file
+		StringClassNameToClassConstantRector::class => [
+			'*/config/system/settings.php',
+		],
 	]);
 };
