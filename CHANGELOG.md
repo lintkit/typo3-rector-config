@@ -1,3 +1,11 @@
+# 2.1.0
+
+**24th November 2026**
+
+#### Feature
+
+- Ignore string-based PHP classes
+
 # 2.0.0
 
 **29th September 2026**
