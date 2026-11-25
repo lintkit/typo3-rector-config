@@ -9,6 +9,7 @@ use Rector\Php55\Rector\String_\StringClassNameToClassConstantRector;
 use Rector\CodeQuality\Rector\Class_\InlineConstructorDefaultToPropertyRector;
 use Rector\TypeDeclaration\Rector\ClassMethod\AddVoidReturnTypeWhereNoReturnRector;
 use Ssch\TYPO3Rector\CodeQuality\General\ConvertImplicitVariablesToExplicitGlobalsRector;
+use Ssch\TYPO3Rector\CodeQuality\General\UseExtensionKeyInLocalizationUtilityRector;
 use Ssch\TYPO3Rector\CodeQuality\General\GeneralUtilityMakeInstanceToConstructorPropertyRector;
 
 return static function (RectorConfig $rectorConfig): void {
@@ -49,6 +50,7 @@ return static function (RectorConfig $rectorConfig): void {
 	$rectorConfig->skip([
 		// TYPO3 Rector
 		GeneralUtilityMakeInstanceToConstructorPropertyRector::class,
+		UseExtensionKeyInLocalizationUtilityRector::class,
 
 		// Ignore string-based PHP classes in settings file
 		StringClassNameToClassConstantRector::class => [
